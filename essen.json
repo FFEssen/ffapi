@@ -1,110 +1,112 @@
 {
-  "name": "Freifunk Essen",
-  "url": "https://freifunk-essen.de",
-  "nodeMaps" : [
-      {
-         "technicalType" : "ffmap",
-         "interval" : "1min",
-         "mapType" : "geographical",
-         "url" : "https://map.freifunk-essen.de/"
-      },
-      {
-         "technicalType" : "ffmap",
-         "interval": "1min",
-         "mapType" : "list/status",
-         "url" : "https://map.freifunk-essen.de/data/nodelist.json"
-      }
-   ],
-  "location": {
-    "city": "Essen",
-    "country": "DE",
-    "lat": 51.45764372910066,
-    "lon": 7.011251449584961,
-    "address": {
-      "Name": "Freifunk Essen e. V.",
-      "Street": "Viehofer Str. 31",
-      "Zipcode": "45127"
-    }
-  },
-  "contact": {
-    "email": "kontakt@freifunk-essen.de",
-    "facebook": "https://www.facebook.com/freifunk.essen",
-    "twitter": "@ffessen"
-  },
-  "state": {
-    "nodes": 244,
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Social Community Building",
-      "Local services and content",
-      "Free internet access"
-    ],
-    "lastchange": "2021-05-18T19:01:00.496Z"
-  },
-  "feeds": [
-    {
-      "name": "EventsFeed",
-      "category": "others",
-      "type": "xml",
-      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
-    }
-  ],
-  "support": {
-    "club": {
-      "name": "Freifunk Rheinland e.V.",
-      "url": "https://freifunk-rheinland.net"
-    },
-    "donations": {
-      "campaigns": [
+    "name": "Freifunk Essen",
+    "url": "https://freifunk-essen.de",
+    "nodeMaps": [
         {
-          "provider": "boost",
-          "projectid": "2774"
+            "technicalType": "ffmap",
+            "interval": "1min",
+            "mapType": "geographical",
+            "url": "https://map.freifunk-essen.de/"
         },
         {
-          "provider": "betterplace",
-          "projectid": "16049"
+            "technicalType": "ffmap",
+            "interval": "1min",
+            "mapType": "list/status",
+            "url": "https://map.freifunk-essen.de/data/nodelist.json"
         }
-      ]
-    }
-  },
-  "techDetails": {
-    "firmware": {
-      "name": "gluon",
-      "url": "https://images.freifunk-essen.de/stable/factory/",
-      "docs": "https://freifunk-essen.de/anleitung#einrichten"
+    ],
+    "location": {
+        "city": "Essen",
+        "country": "DE",
+        "address": {
+            "name": "Freifunk Essen e. V.",
+            "street": "Viehofer Str. 31",
+            "zipcode": "45127"
+        },
+        "geoCode": {
+            "lat": 51.45764372910066,
+            "lon": 7.011251449584961
+        }
     },
-    "networks" : {
-       "ipv6" : [
-          {
-             "network" : "2a03:2260:1005::/64"
-          }
-       ],
-       "ipv4" : [
-          {
-             "network" : "10.228.0.0/16"
-          }
-       ]
+    "contact": {
+        "email": "kontakt@freifunk-essen.de",
+        "facebook": "https://www.facebook.com/freifunk.essen",
+        "twitter": "@ffessen"
     },
-    "dns" : [
-       {
-          "nameserver" : [
-             "2a03:2260:1005::8",
-             "2a03:2260:1005::16",
-             "2a03:2260:1005::32"
-          ],
-          "domainname" : "ffe"
-       }
+    "state": {
+        "nodes": 126,
+        "focus": [
+            "infrastructure/backbone",
+            "Public Free Wifi",
+            "Social Community Building",
+            "Local services and content",
+            "Free internet access"
+        ],
+        "lastchange": "2024-02-18T23:54:42+00:00"
+    },
+    "feeds": [
+        {
+            "name": "EventsFeed",
+            "category": "others",
+            "type": "xml",
+            "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+        }
     ],
-    "routing": [
-      "batman-adv"
-    ],
-    "updatemode": [
-      "autoupdate"
-    ],
-    "legals": [
-      "institutions"
-    ]
-  },
-  "api": "0.4.16"
+    "support": {
+        "club": {
+            "name": "Freifunk Rheinland e.V.",
+            "url": "https://freifunk-rheinland.net"
+        },
+        "donations": {
+            "campaigns": [
+                {
+                    "provider": "boost",
+                    "projectid": "2774"
+                },
+                {
+                    "provider": "betterplace",
+                    "projectid": "16049"
+                }
+            ]
+        }
+    },
+    "techDetails": {
+        "firmware": {
+            "name": "gluon",
+            "url": "https://images.freifunk-essen.de/stable/factory/",
+            "docs": "https://freifunk-essen.de/anleitung#einrichten"
+        },
+        "networks": {
+            "ipv6": [
+                {
+                    "network": "2a03:2260:1005::/64"
+                }
+            ],
+            "ipv4": [
+                {
+                    "network": "10.228.0.0/16"
+                }
+            ]
+        },
+        "dns": [
+            {
+                "nameserver": [
+                    "2a03:2260:1005::8",
+                    "2a03:2260:1005::16",
+                    "2a03:2260:1005::32"
+                ],
+                "domainname": "ffe"
+            }
+        ],
+        "routing": [
+            "batman-adv"
+        ],
+        "updatemode": [
+            "autoupdate"
+        ],
+        "legals": [
+            "institutions"
+        ]
+    },
+    "api": "0.5.2"
 }
