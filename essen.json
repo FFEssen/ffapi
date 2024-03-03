@@ -34,7 +34,7 @@
         "twitter": "@ffessen"
     },
     "state": {
-        "nodes": 124,
+        "nodes": 126,
         "focus": [
             "infrastructure/backbone",
             "Public Free Wifi",
@@ -42,7 +42,7 @@
             "Local services and content",
             "Free internet access"
         ],
-        "lastchange": "2024-03-02T05:05:04+00:00"
+        "lastchange": "2024-03-03T05:04:52+00:00"
     },
     "feeds": [
         {
